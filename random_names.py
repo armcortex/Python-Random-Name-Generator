@@ -2,15 +2,18 @@
 # -*- coding: utf-8 -*-
 import random
 import string
+import os
 
-FirstNames    = './Names/FirstNames.txt'
-MiddleNames   = './Names/MiddleNames.txt'
-LastNames     = './Names/LastNames.txt'
-CountyNames   = './Names/CountyNames.txt'
-PlaceNames    = './Names/PlaceNames.txt'
-StateNames    = './Names/StateNames.txt'
-CountryNames  = './Names/CountryNames.txt'
-CompanyNames  = './Names/CompanyNames.txt'
+BASE_PATH = os.path.dirname(os.path.abspath(__file__))
+
+FirstNames    = BASE_PATH + '/Names/FirstNames.txt'
+MiddleNames   = BASE_PATH + '/Names/MiddleNames.txt'
+LastNames     = BASE_PATH + '/Names/LastNames.txt'
+CountyNames   = BASE_PATH + '/Names/CountyNames.txt'
+PlaceNames    = BASE_PATH + '/Names/PlaceNames.txt'
+StateNames    = BASE_PATH + '/Names/StateNames.txt'
+CountryNames  = BASE_PATH + '/Names/CountryNames.txt'
+CompanyNames  = BASE_PATH + '/Names/CompanyNames.txt'
 
 
 
